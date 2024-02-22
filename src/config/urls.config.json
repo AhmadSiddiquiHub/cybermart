@@ -1,0 +1,21 @@
+{
+  "COURIERSERVICEURLS": {
+    "BD": {
+      "CHECK_SERVICEABILITY_URL": "https://netconnect.bluedart.com/Ver1.10/ShippingAPI/Finder/ServiceFinderQuery.svc/rest/GetServicesforPincode",
+      "AWB_URL": "https://netconnect.bluedart.com/Ver1.10/ShippingAPI/WayBill/WayBillGeneration.svc/rest/GenerateWayBill",
+      "EDD_URL": "https://netconnect.bluedart.com/Ver1.10/ShippingAPI/Finder/ServiceFinderQuery.svc/rest/GetDomesticTransitTimeForPinCodeandProduct",
+      "CANCEL_AWB_URL": "https://netconnect.bluedart.com/Ver1.10/ShippingAPI/WayBill/WayBillGeneration.svc/rest/CancelWaybill"
+    },
+    "SR": {
+      "LOGIN": "https://apiv2.shiprocket.in/v1/external/auth/login",
+      "CREATE_ORDER_URL": "https://apiv2.shiprocket.in/v1/external/orders/create/adhoc",
+      "CHECK_SERVICEABILITY_URL": "https://apiv2.shiprocket.in/v1/external/courier/serviceability",
+      "AWB_URL": "https://apiv2.shiprocket.in/v1/external/courier/assign/awb",
+      "REQUEST_PICKUP_URL": "https://apiv2.shiprocket.in/v1/external/courier/generate/pickup",
+      "CREATE_RETURN_URL": "https://apiv2.shiprocket.in/v1/external/orders/create/return",
+      "GET_PICKUP_ADDRESSES_URL": "https://apiv2.shiprocket.in/v1/external/settings/company/pickup",
+      "GENERATE_AWB_URL": "https://apiv2.shiprocket.in/v1/external/courier/generate/label",
+      "UPDATE_ORDER_URL": "https://apiv2.shiprocket.in/v1/external/orders/update/adhoc"
+    }
+  }
+}

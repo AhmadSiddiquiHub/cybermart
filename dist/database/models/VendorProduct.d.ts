@@ -1,0 +1,29 @@
+export declare class VendorProduct {
+    id: number;
+    slug: string;
+    vendorId: number;
+    siteId: number;
+    productId: number;
+    isProductOwner: number;
+    createdAt: string;
+    updatedAt: string;
+    hsn: number;
+    quantity: number;
+    brandId: number;
+    searchKeywords: string;
+    COD: number;
+    bulkQuote: number;
+    statusId: number;
+    isFeatured: number;
+    OneStartRatingCount: number;
+    TwoStartRatingCount: number;
+    ThreeStartRatingCount: number;
+    FourStartRatingCount: number;
+    FiveStartRatingCount: number;
+    returnDays: number;
+    taxClassId: number;
+    sizeChartImage: string;
+    fakeOrders: number;
+    createDetails(): Promise<void>;
+    updateDetails(): Promise<void>;
+}

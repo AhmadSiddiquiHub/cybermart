@@ -1,0 +1,29 @@
+export declare class Country {
+    countriesId: number;
+    name: string;
+    numericCode: string;
+    iso2: string;
+    iso3: string;
+    phonecode: string;
+    capital: string;
+    currency: string;
+    currencyName: string;
+    currencySymbol: string;
+    tld: string;
+    native: string;
+    region: string;
+    subRegion: string;
+    timezones: string;
+    translations: string;
+    latitude: number;
+    longitude: number;
+    emoji: string;
+    emojiU: string;
+    svgIcon: string;
+    createdAt: string;
+    updatedAt: string;
+    flag: number;
+    wikiDataId: string;
+    createDetails(): Promise<void>;
+    updateDetails(): Promise<void>;
+}

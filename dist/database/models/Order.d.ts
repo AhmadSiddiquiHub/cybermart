@@ -1,0 +1,32 @@
+export declare class Order {
+    orderId: number;
+    userId: number;
+    siteId: number;
+    countryId: number;
+    stateId: number;
+    cityId: number;
+    areaId: number;
+    name: string;
+    phoneNo: string;
+    tax: string;
+    lineAddress1: string;
+    lineAddress2: string;
+    lineAddress3: string;
+    zipcode: string;
+    addrType: string;
+    statusId: number;
+    orderNo: string;
+    totalAmount: string;
+    paymentMethodId: number;
+    paymentStatus: number;
+    comments: string;
+    coupon: string;
+    discount: number;
+    createdAt: string;
+    updatedAt: string;
+    invoice: string;
+    trackingSlip: string;
+    shippingCharges: string;
+    createDetails(): Promise<void>;
+    updateDetails(): Promise<void>;
+}

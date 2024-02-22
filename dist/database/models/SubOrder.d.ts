@@ -1,0 +1,30 @@
+export declare class SubOrder {
+    id: number;
+    siteId: number;
+    orderId: number;
+    productId: number;
+    productVariantId: number;
+    statusId: number;
+    status: string;
+    statusColor: string;
+    userId: number;
+    shippingCharges: number;
+    shippingDays: number;
+    shippingType: string;
+    vendorId: number;
+    campaignId: number;
+    productName: string;
+    productImage: string;
+    productPrice: string;
+    quantity: number;
+    totalAmount: string;
+    subOrderNo: string;
+    discount: number;
+    variant: string;
+    createdAt: string;
+    updatedAt: string;
+    viewReturnLabel: number;
+    returnTillDate: number;
+    createDetails(): Promise<void>;
+    updateDetails(): Promise<void>;
+}
